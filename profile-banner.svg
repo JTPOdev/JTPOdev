@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Jorose Po - Full-stack and game developer</title>
+  <desc id="desc">A forest green banner with sage typography, inspired by Jorose's portfolio.</desc>
+  <defs>
+    <linearGradient id="wash" x1="1200" y1="0" x2="430" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#42563A"/><stop offset="1" stop-color="#17231C"/></linearGradient>
+    <linearGradient id="letters" x1="820" y1="40" x2="1030" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#AEC494" stop-opacity=".2"/><stop offset="1" stop-color="#AEC494" stop-opacity=".025"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="#17231C"/>
+  <rect width="1200" height="360" rx="24" fill="url(#wash)"/>
+  <rect x=".5" y=".5" width="1199" height="359" rx="23.5" stroke="#B9CCA0" stroke-opacity=".13"/>
+  <text x="790" y="303" font-family="Arial, sans-serif" font-size="310" font-weight="900" letter-spacing="-28" fill="url(#letters)">JP.</text>
+  <g font-family="Arial, sans-serif">
+    <circle cx="60" cy="57" r="4" fill="#B9CCA0"/>
+    <text x="77" y="62" font-size="14" letter-spacing="2.2" fill="#B9CCA0">FULL-STACK &amp; GAME DEVELOPER</text>
+    <text x="52" y="176" font-size="84" font-weight="700" letter-spacing="-4" fill="#EFF2E6">Jorose Po<tspan fill="#B9CCA0">.</tspan></text>
+    <text x="56" y="225" font-size="23" fill="#CBD5BF">Systems you can use. Worlds you can play.</text>
+    <path d="M56 273H1144" stroke="#B9CCA0" stroke-opacity=".2"/>
+    <text x="56" y="313" font-size="16" fill="#AFBDA6">Dagupan City, Philippines</text>
+    <text x="1144" y="313" text-anchor="end" font-size="17" fill="#DFE7D2">jorosepo.site &#8599;</text>
+  </g>
+</svg>
