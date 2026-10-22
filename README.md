@@ -7,11 +7,11 @@
 </a>
 
 <p align="center">
-  <a href="https://www.jorosepo.site/">Portfolio</a> &nbsp; / &nbsp;
-  <a href="#01--about">About</a> &nbsp; / &nbsp;
-  <a href="#02--selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#03--toolkit">Toolkit</a> &nbsp; / &nbsp;
-  <a href="#04--lets-connect">Let's connect</a>
+  <a href="https://www.jorosepo.site/"><img src="assets/nav-portfolio.svg" alt="Portfolio" height="36"></a>&nbsp;
+  <a href="#user-content-about"><img src="assets/nav-about.svg" alt="Jump to About" height="36"></a>&nbsp;
+  <a href="#user-content-work"><img src="assets/nav-work.svg" alt="Jump to Selected work" height="36"></a>&nbsp;
+  <a href="#user-content-toolkit"><img src="assets/nav-toolkit.svg" alt="Jump to Toolkit" height="36"></a>&nbsp;
+  <a href="#user-content-connect"><img src="assets/nav-connect.svg" alt="Jump to Let's connect" height="36"></a>
 </p>
 
 <p align="center">
@@ -21,53 +21,61 @@
 
 <br>
 
-## 01 / About
+<a id="about"></a>
+
+## `01` — About
 
 I'm **Jorose**, a BS Information Technology student at **PHINMA University of Pangasinan**, currently seeking an **OJT opportunity**.
 
 I like working through how a system fits together, from its backend and data to the interface people use. My work spans healthcare platforms, multiplayer games, and AI tools that run locally. I also draw the pixel-art sprites, animations, and interfaces for my 2D games.
 
-| Building systems | Making games | Working with local AI |
-| :--- | :--- | :--- |
-| REST APIs, authentication, identity verification, and database-backed applications. | Unity gameplay, enemy waves, multiplayer synchronization, and original pixel art. | Ollama / Qwen pipelines, retrieval-augmented generation, and reporting tools. |
+**Systems** &nbsp; REST APIs, authentication, identity verification, and databases.<br>
+**Games** &nbsp; Unity gameplay, multiplayer synchronization, and original pixel art.<br>
+**Local AI** &nbsp; Ollama / Qwen, retrieval-augmented generation, and reporting tools.
 
 <br>
 
-## 02 / Selected work
+<a id="work"></a>
+
+## `02` — Selected work
 
 A few projects, and the parts I built.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://www.jorosepo.site/#work"><img src="assets/project-lifex.png" alt="LifeX — healthcare platform" width="600"></a>
+      <a href="https://www.jorosepo.site/#project-name-lifex"><img src="assets/project-lifex.png" alt="Explore LifeX — healthcare platform" width="600"></a>
       <h3>LifeX</h3>
       <p>An outpatient healthcare platform connecting patient records, verified identities, and digital prescriptions.</p>
       <p><strong>My part</strong><br>Full-stack architecture, the VerifyX identity service, record encryption, prescription signing, and pre-consultation AI.</p>
       <p><code>Django REST</code> <code>React</code> <code>PostgreSQL</code></p>
+      <p><a href="https://www.jorosepo.site/#project-name-lifex">Explore LifeX ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://www.jorosepo.site/#work"><img src="assets/project-lastfortress.png" alt="LastFortress — multiplayer tower defense" width="600"></a>
+      <a href="https://www.jorosepo.site/#project-name-lastfortress"><img src="assets/project-lastfortress.png" alt="Explore LastFortress — multiplayer tower defense" width="600"></a>
       <h3>LastFortress</h3>
       <p>A Unity tower defense game with multiplayer systems and creatures drawn from Philippine folklore.</p>
       <p><strong>My part</strong><br>The complete Unity client: core gameplay, enemy waves, and custom NetWrapper multiplayer synchronization.</p>
       <p><code>Unity</code> <code>C#</code> <code>NetWrapper</code></p>
+      <p><a href="https://www.jorosepo.site/#project-name-lastfortress">Explore LastFortress ↗</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://www.jorosepo.site/#work"><img src="assets/project-cryphoria.png" alt="Cryphoria — finance and local AI" width="600"></a>
+      <a href="https://www.jorosepo.site/#project-name-cryphoria"><img src="assets/project-cryphoria.png" alt="Explore Cryphoria — finance and local AI" width="600"></a>
       <h3>Cryphoria</h3>
       <p>A cryptocurrency-based accountancy platform with automated reporting and local AI summaries.</p>
       <p><strong>My part</strong><br>Local Ollama / Qwen pipelines using RAG and CAG, reporting calculations, and API integration with web and mobile clients.</p>
       <p><code>Python</code> <code>Ollama</code> <code>Django REST</code></p>
+      <p><a href="https://www.jorosepo.site/#project-name-cryphoria">Explore Cryphoria ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://www.jorosepo.site/#work"><img src="assets/project-baskit.png" alt="Baskit — local-market shopping" width="600"></a>
+      <a href="https://www.jorosepo.site/#project-name-baskit"><img src="assets/project-baskit.png" alt="Explore Baskit — local-market shopping" width="600"></a>
       <h3>Baskit</h3>
       <p>A local-market shopping app where a Tagabili shopper fulfills a customer's picking list using a pickup code.</p>
       <p><strong>My part</strong><br>A backend built from scratch in vanilla PHP and MySQL, with REST endpoints integrated into the native Kotlin Android app.</p>
       <p><code>PHP</code> <code>MySQL</code> <code>Kotlin</code></p>
+      <p><a href="https://www.jorosepo.site/#project-name-baskit">Explore Baskit ↗</a></p>
     </td>
   </tr>
 </table>
@@ -85,13 +93,15 @@ A few projects, and the parts I built.
 
 <br>
 
-## 03 / Toolkit
+<a id="toolkit"></a>
 
-Tools I use across my projects.
+## `03` — Toolkit
 
-**Web & mobile**
+<p align="center">Tools I use across my projects.</p>
 
-<p>
+<h3 align="center">Web & mobile</h3>
+
+<p align="center">
   <img src="assets/tech/react.svg" alt="React" title="React" width="48" height="48">&nbsp;
   <img src="assets/tech/typescript.svg" alt="TypeScript" title="TypeScript" width="48" height="48">&nbsp;
   <img src="assets/tech/javascript.svg" alt="JavaScript" title="JavaScript" width="48" height="48">&nbsp;
@@ -101,9 +111,9 @@ Tools I use across my projects.
   <img src="assets/tech/kotlin.svg" alt="Kotlin" title="Kotlin" width="48" height="48">
 </p>
 
-**Backend & local AI**
+<h3 align="center">Backend & local AI</h3>
 
-<p>
+<p align="center">
   <img src="assets/tech/python.svg" alt="Python" title="Python" width="48" height="48">&nbsp;
   <img src="assets/tech/django.svg" alt="Django REST" title="Django REST" width="48" height="48">&nbsp;
   <img src="assets/tech/fastapi.svg" alt="FastAPI" title="FastAPI" width="48" height="48">&nbsp;
@@ -112,20 +122,20 @@ Tools I use across my projects.
   <img src="assets/tech/ollama.svg" alt="Ollama" title="Ollama" width="48" height="48">
 </p>
 
-**Games & art**
+<h3 align="center">Games & art</h3>
 
-<p>
+<p align="center">
   <img src="assets/tech/unity.svg" alt="Unity" title="Unity" width="48" height="48">&nbsp;
   <img src="assets/tech/csharp.svg" alt="C#" title="C#" width="48" height="48">&nbsp;
   <img src="assets/tech/solidity.svg" alt="Solidity" title="Solidity" width="48" height="48">&nbsp;
   <img src="assets/tech/thirdweb.svg" alt="Thirdweb" title="Thirdweb" width="48" height="48">
 </p>
 
-Gameplay in **Unity / C#** and **Pygame**. Original sprites, animation, and UI in **IbisPaint**.
+<p align="center"><sub>Gameplay in Unity / C# and Pygame. Original sprites, animation, and UI in IbisPaint.</sub></p>
 
-**Data & workflow**
+<h3 align="center">Data & workflow</h3>
 
-<p>
+<p align="center">
   <img src="assets/tech/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48">&nbsp;
   <img src="assets/tech/mysql.svg" alt="MySQL" title="MySQL" width="48" height="48">&nbsp;
   <img src="assets/tech/mongodb.svg" alt="MongoDB" title="MongoDB" width="48" height="48">&nbsp;
@@ -136,7 +146,9 @@ Gameplay in **Unity / C#** and **Pygame**. Original sprites, animation, and UI i
 
 <br>
 
-## 04 / Let's connect
+<a id="connect"></a>
+
+## `04` — Let's connect
 
 <a href="mailto:jorosepooo@gmail.com"><img src="assets/contact-banner.svg" alt="Have something in mind? A project or a place on your team. Let's talk." width="1200"></a>
 
